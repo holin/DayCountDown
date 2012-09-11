@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E81E59715FECFF6003353FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E81E59615FECFF6003353FB /* UIKit.framework */; };
+		3E81E59915FECFF6003353FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E81E59815FECFF6003353FB /* Foundation.framework */; };
+		3E81E59B15FECFF6003353FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E81E59A15FECFF6003353FB /* CoreGraphics.framework */; };
+		3E81E5A115FECFF6003353FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E81E59F15FECFF6003353FB /* InfoPlist.strings */; };
+		3E81E5A315FECFF6003353FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E81E5A215FECFF6003353FB /* main.m */; };
+		3E81E5A715FECFF6003353FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E81E5A615FECFF6003353FB /* AppDelegate.m */; };
+		3E81E5AA15FECFF6003353FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E81E5A915FECFF6003353FB /* ViewController.m */; };
+		3E81E5AD15FECFF6003353FB /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E81E5AB15FECFF6003353FB /* ViewController_iPhone.xib */; };
+		3E81E5B015FECFF6003353FB /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E81E5AE15FECFF6003353FB /* ViewController_iPad.xib */; };
+		3E81E5B815FED055003353FB /* DayCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E81E5B715FED055003353FB /* DayCountDownView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E81E59215FECFF6003353FB /* DayCountDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayCountDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E81E59615FECFF6003353FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E81E59815FECFF6003353FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E81E59A15FECFF6003353FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E81E59E15FECFF6003353FB /* DayCountDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DayCountDown-Info.plist"; sourceTree = "<group>"; };
+		3E81E5A015FECFF6003353FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E81E5A215FECFF6003353FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E81E5A415FECFF6003353FB /* DayCountDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DayCountDown-Prefix.pch"; sourceTree = "<group>"; };
+		3E81E5A515FECFF6003353FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E81E5A615FECFF6003353FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E81E5A815FECFF6003353FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E81E5A915FECFF6003353FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E81E5AC15FECFF6003353FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		3E81E5AF15FECFF6003353FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		3E81E5B615FED055003353FB /* DayCountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayCountDownView.h; sourceTree = "<group>"; };
+		3E81E5B715FED055003353FB /* DayCountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayCountDownView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E81E58F15FECFF6003353FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E81E59715FECFF6003353FB /* UIKit.framework in Frameworks */,
+				3E81E59915FECFF6003353FB /* Foundation.framework in Frameworks */,
+				3E81E59B15FECFF6003353FB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E81E58715FECFF6003353FB = {
+			isa = PBXGroup;
+			children = (
+				3E81E59C15FECFF6003353FB /* DayCountDown */,
+				3E81E59515FECFF6003353FB /* Frameworks */,
+				3E81E59315FECFF6003353FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E81E59315FECFF6003353FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E81E59215FECFF6003353FB /* DayCountDown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E81E59515FECFF6003353FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E81E59615FECFF6003353FB /* UIKit.framework */,
+				3E81E59815FECFF6003353FB /* Foundation.framework */,
+				3E81E59A15FECFF6003353FB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E81E59C15FECFF6003353FB /* DayCountDown */ = {
+			isa = PBXGroup;
+			children = (
+				3E81E5B615FED055003353FB /* DayCountDownView.h */,
+				3E81E5B715FED055003353FB /* DayCountDownView.m */,
+				3E81E5A515FECFF6003353FB /* AppDelegate.h */,
+				3E81E5A615FECFF6003353FB /* AppDelegate.m */,
+				3E81E5A815FECFF6003353FB /* ViewController.h */,
+				3E81E5A915FECFF6003353FB /* ViewController.m */,
+				3E81E5AB15FECFF6003353FB /* ViewController_iPhone.xib */,
+				3E81E5AE15FECFF6003353FB /* ViewController_iPad.xib */,
+				3E81E59D15FECFF6003353FB /* Supporting Files */,
+			);
+			path = DayCountDown;
+			sourceTree = "<group>";
+		};
+		3E81E59D15FECFF6003353FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E81E59E15FECFF6003353FB /* DayCountDown-Info.plist */,
+				3E81E59F15FECFF6003353FB /* InfoPlist.strings */,
+				3E81E5A215FECFF6003353FB /* main.m */,
+				3E81E5A415FECFF6003353FB /* DayCountDown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E81E59115FECFF6003353FB /* DayCountDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E81E5B315FECFF6003353FB /* Build configuration list for PBXNativeTarget "DayCountDown" */;
+			buildPhases = (
+				3E81E58E15FECFF6003353FB /* Sources */,
+				3E81E58F15FECFF6003353FB /* Frameworks */,
+				3E81E59015FECFF6003353FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayCountDown;
+			productName = DayCountDown;
+			productReference = 3E81E59215FECFF6003353FB /* DayCountDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E81E58915FECFF6003353FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = HoLin;
+			};
+			buildConfigurationList = 3E81E58C15FECFF6003353FB /* Build configuration list for PBXProject "DayCountDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E81E58715FECFF6003353FB;
+			productRefGroup = 3E81E59315FECFF6003353FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E81E59115FECFF6003353FB /* DayCountDown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E81E59015FECFF6003353FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E81E5A115FECFF6003353FB /* InfoPlist.strings in Resources */,
+				3E81E5AD15FECFF6003353FB /* ViewController_iPhone.xib in Resources */,
+				3E81E5B015FECFF6003353FB /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E81E58E15FECFF6003353FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E81E5A315FECFF6003353FB /* main.m in Sources */,
+				3E81E5A715FECFF6003353FB /* AppDelegate.m in Sources */,
+				3E81E5AA15FECFF6003353FB /* ViewController.m in Sources */,
+				3E81E5B815FED055003353FB /* DayCountDownView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E81E59F15FECFF6003353FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E81E5A015FECFF6003353FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E81E5AB15FECFF6003353FB /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E81E5AC15FECFF6003353FB /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3E81E5AE15FECFF6003353FB /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E81E5AF15FECFF6003353FB /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E81E5B115FECFF6003353FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E81E5B215FECFF6003353FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E81E5B415FECFF6003353FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayCountDown/DayCountDown-Prefix.pch";
+				INFOPLIST_FILE = "DayCountDown/DayCountDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E81E5B515FECFF6003353FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayCountDown/DayCountDown-Prefix.pch";
+				INFOPLIST_FILE = "DayCountDown/DayCountDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E81E58C15FECFF6003353FB /* Build configuration list for PBXProject "DayCountDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E81E5B115FECFF6003353FB /* Debug */,
+				3E81E5B215FECFF6003353FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E81E5B315FECFF6003353FB /* Build configuration list for PBXNativeTarget "DayCountDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E81E5B415FECFF6003353FB /* Debug */,
+				3E81E5B515FECFF6003353FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E81E58915FECFF6003353FB /* Project object */;
+}
